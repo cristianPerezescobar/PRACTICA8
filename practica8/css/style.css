@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.areaPrincipal { 
+    background-image: url("../css/fondo.jpg"); 
+    background-repeat: no-repeat; /
+    width: 100%; 
+    height: auto;
+    opacity: 0.6;
+    -webkit-background-size: 100% 100%;
+       
+    -moz-background-size: 100% 100%; 
+    -o-background-size: 100% 100%;
+      
+    background-size: 100% 100%;
+}
+        
+#encabezado{
+ background: rgba(115, 122, 104, 0.342); 
+ height: 240px;
+ text-align: center;
+ background-image: url("../css/logo.png" ); 
+ background-repeat: no-repeat;
+ background-size: 180px 180px;
+}
+
+.piePagina{
+    width: 100%;/*ancho*/
+    height: 100px;/*alto*/
+    background-color: rgb(203, 183, 205);  /*colo de fondo*/
+    color: rgb(218, 221, 223);  /*color de letra dentro de la clase*/
+    bottom: 0;  /*espacio de separacion para inferior*/
+    position: fixed;
+    left: 0;  /*alineacion de contenido a la isquierda*/
+   }
+
+
+#menu{  /*identificador*/
+    height: 40px;
+    position: relative;
+    top: 200px;
+    
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(72, 34, 122);
+}
+
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(8, 2, 8);
+} 
+#datos{
+    width: 80%;
+    background-color: rgb(23, 103, 156);
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        
+
+
+
+
